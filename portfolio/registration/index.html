@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="minimum-scale=1,initial-scale=1,width=device-width,shrink-to-fit=no"/>
+  <title>Регистрация</title>
+</head>
+<body>
+  <h1>Регистрация</h1>
+  <h3>Заполните для регистрации</h3>
+  <form action="#" name="registration">
+    <div>
+      <input placeholder="Логин" type="text" name="userlog" value="">
+    </div>
+    <div>
+      <input placeholder="Пароль" type="password" name="userpas" value="">
+    </div>
+    <div>
+      <input placeholder="ФИО" type="text" name="username" value="">
+    </div>
+    <br>
+    <div>
+      <span>Пол:</span>
+      <br>
+      <input type="radio" name="usergender" value="male"> мужской <br>
+      <input type="radio" name="usergender" value="female"> женский
+    </div>
+    <br>
+    <div>
+      <span>Дата рождения</span> 
+      <br>
+      <input type="date" name="userbirthday" value="">
+    </div>
+    <br>
+    <div>
+      <span>Город:</span>
+      <select name="city">
+        <option value="msk">Москва</option>
+        <option value="spt">Питер</option>
+        <option value="kaz">Казань</option>
+        <option value="smol">Смоленск</option>
+        <option value="ekb">Екатеринбург</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <span>Номер тел.</span> 
+      <br>
+      <input placeholder="+7(***)*******" type="tel" name="userphone" value=""> 
+    </div>
+    <br>
+    <div>
+      <span>E-Mail адрес:</span>
+      <br>
+      <input type="email" name="useremail" value="">
+    </div>
+    <br>
+    <div>
+      <input type="checkbox" name="spam"> Получать рассылку на эл.почту
+    </div>
+    <br>
+    <div>
+      <button type="submit" formaction="/Users/maksimgavriluk/elbrus/core-html-registration/greetings.html">Отправить форму</button>
+      <button type="reset">Очистить форму</button>
+    </div>
+  </form>
+</body>
+</html>
